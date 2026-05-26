@@ -75,9 +75,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Dr. Sarala Govindarajan, MD — Neurology Specialist" },
       { name: "description", content: "Board-certified neurologist offering evidence-based diagnosis and care for migraines, epilepsy, neuropathy, Parkinson's, MS, and more." },
       { property: "og:title", content: "Dr. Sarala Govindarajan, MD — Neurology Specialist" },
-      { property: "og:description", content: "Board-certified neurologist offering evidence-based diagnosis and care for complex neurological conditions." },
+      { property: "og:description", content: "Board-certified neurologist offering evidence-based diagnosis and care for migraines, epilepsy, neuropathy, Parkinson's, MS, and more." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Dr. Sarala Govindarajan, MD — Neurology Specialist" },
+      { name: "twitter:description", content: "Board-certified neurologist offering evidence-based diagnosis and care for migraines, epilepsy, neuropathy, Parkinson's, MS, and more." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0c9c2925-09a6-4c43-8db8-3f859867b75c/id-preview-d571672e--c2b3ca93-6dab-467e-bbd2-6c10cdb08eca.lovable.app-1779804181873.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0c9c2925-09a6-4c43-8db8-3f859867b75c/id-preview-d571672e--c2b3ca93-6dab-467e-bbd2-6c10cdb08eca.lovable.app-1779804181873.png" },
     ],
     links: [
       {
