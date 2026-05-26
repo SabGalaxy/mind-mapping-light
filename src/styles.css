@@ -4,6 +4,28 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  --color-brand-bg: #fdfdfd;
+  --color-brand-fg: #0f172a;
+  --color-brand-primary: #0d9488;
+  --color-brand-primary-dark: #134e4a;
+  --color-brand-muted: #64748b;
+  --color-brand-border: #e2e8f0;
+  --color-brand-surface: #f8fafc;
+  --font-display: 'Inter Tight', ui-sans-serif, system-ui, sans-serif;
+  --font-body: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+@keyframes brand-reveal {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-reveal {
+  animation: brand-reveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
 /*
  * Design system definition.
  *
