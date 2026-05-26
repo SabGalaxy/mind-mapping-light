@@ -44,7 +44,7 @@ function Index() {
       <nav className="sticky top-0 z-50 bg-[var(--color-brand-bg)]/80 backdrop-blur-md border-b border-[var(--color-brand-border)]/50">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <a href="#top" className="flex flex-col">
-            <span className="font-[var(--font-display)] font-bold text-xl tracking-tight leading-none uppercase">Dr. S. Govindarajan</span>
+            <span className="font-[var(--font-display)] font-bold text-xl tracking-tight leading-none uppercase">Dr. Sarala Govindarajan</span>
             <span className="font-[var(--font-mono)] text-[10px] tracking-widest text-[var(--color-brand-primary)] uppercase mt-1">Neurology Specialist</span>
           </a>
           <div className="hidden md:flex gap-8 items-center">
@@ -69,11 +69,11 @@ function Index() {
             <div className="flex flex-wrap gap-4">
               <div className="flex flex-col p-4 border border-[var(--color-brand-border)] rounded-xl bg-white">
                 <span className="font-[var(--font-mono)] text-[10px] uppercase text-[var(--color-brand-muted)] mb-1">Location</span>
-                <span className="font-medium">Plano Medical Center, Ste 402</span>
+                <span className="font-medium">2/1 Hunters Lane, Choolai, Chennai - 600112</span>
               </div>
               <div className="flex flex-col p-4 border border-[var(--color-brand-border)] rounded-xl bg-white">
                 <span className="font-[var(--font-mono)] text-[10px] uppercase text-[var(--color-brand-muted)] mb-1">Phone</span>
-                <span className="font-medium">(972) 555-0192</span>
+                <span className="font-medium">+91 94441 07480</span>
               </div>
             </div>
           </div>
@@ -221,20 +221,19 @@ function Index() {
           <div className="grid lg:grid-cols-3 gap-16 mb-20">
             <div>
               <div className="flex flex-col mb-8">
-                <span className="font-[var(--font-display)] font-bold text-xl tracking-tight leading-none uppercase">Dr. S. Govindarajan</span>
+                <span className="font-[var(--font-display)] font-bold text-xl tracking-tight leading-none uppercase">Dr. Sarala Govindarajan</span>
                 <span className="font-[var(--font-mono)] text-[10px] tracking-widest text-[var(--color-brand-primary)] uppercase mt-1">Neurology Practice</span>
               </div>
               <p className="text-sm text-[var(--color-brand-muted)] leading-relaxed">
-                Providing specialized neurological care in Plano and the surrounding DFW communities.
+                Providing specialized neurological care in Chennai and the surrounding communities.
               </p>
             </div>
             <div>
               <h3 className="font-[var(--font-mono)] text-[11px] uppercase text-[var(--color-brand-primary)] mb-6">Contact Details</h3>
               <div className="text-sm space-y-2">
-                <p>6200 W Parker Rd, Suite 402</p>
-                <p>Plano, TX 75093</p>
-                <p className="pt-4 font-bold text-[var(--color-brand-fg)]">(972) 555-0192</p>
-                <p className="text-[var(--color-brand-muted)]">fax: (972) 555-0193</p>
+                <p>2/1 Hunters Lane</p>
+                <p>Choolai, Chennai - 600112</p>
+                <p className="pt-4 font-bold text-[var(--color-brand-fg)]">+91 94441 07480</p>
               </div>
             </div>
             <div>
