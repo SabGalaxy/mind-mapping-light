@@ -144,7 +144,7 @@ function Index() {
               <span className="font-[var(--font-mono)] text-[10px] uppercase tracking-widest text-[var(--color-brand-primary)]">03 / The Provider</span>
               <h2 className="font-[var(--font-display)] text-4xl font-bold mt-4 mb-8">Meet Dr. Sarala Govindarajan</h2>
               <div className="space-y-6 text-white/80 leading-relaxed">
-                <p>Dr. Govindarajan is a Board-Certified Neurologist with over 15 years of experience in diagnosing and treating complex neurological disorders. She completed her residency at the University Medical Center and has dedicated her career to solo practice, allowing for a more personalized patient experience.</p>
+                <p>Dr. Govindarajan is a Board-Certified Neurologist with over 26 years of experience in diagnosing and treating complex neurological disorders. She completed her residency at Madras Medical College and served as professor of neurology in MMC and RGGGH Chennai and has dedicated her career to solo practice, allowing for a more personalized patient experience.</p>
                 <p>She believes that the best medical outcomes are achieved when patients are heard and understood. Her practice combines state-of-the-art diagnostic technology with a compassionate, patient-first approach.</p>
                 <div className="pt-8 grid grid-cols-2 gap-8 border-t border-white/10">
                   <div>
