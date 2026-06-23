@@ -149,7 +149,7 @@ function Index() {
                 <div className="pt-8 grid grid-cols-2 gap-8 border-t border-white/10">
                   <div>
                     <span className="block text-xs uppercase text-white/40 mb-2">Education</span>
-                    <p className="text-sm">DM, Madras Medical College.<br />Residency, Stanley Medical College</p>
+                    <p className="text-sm">DM, Madras Medical College.<br />MD Internal Medicine, Stanley Medical College</p>
                   </div>
                 </div>
               </div>
