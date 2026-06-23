@@ -11,7 +11,6 @@ const services = [
   { n: "02", title: "EMG & NCS", desc: "Comprehensive nerve conduction studies and electromyography for muscle and nerve health." },
   { n: "03", title: "Botox for Migraine", desc: "FDA-approved therapeutic injections for patients suffering from chronic migraine episodes." },
   { n: "04", title: "Sleep Evaluation", desc: "Specialized assessment for sleep-related disorders including apnea and narcolepsy." },
-  { n: "05", title: "VNS Management", desc: "Programming and maintenance for Vagus Nerve Stimulation therapy in epilepsy patients." },
   { n: "06", title: "Cognitive Testing", desc: "Detailed neurocognitive screening for memory loss and cognitive decline assessment." },
 ];
 
