@@ -22,7 +22,6 @@ const conditionGroups: { title: string; items: string[] }[] = [
 ];
 
 const faqs = [
-  { q: "Do I need a referral to see Dr. Govindarajan?", a: "Most insurance plans require a referral from your primary care physician. Please check with your provider before scheduling." },
   { q: "How long does an initial consultation take?", a: "Typically, an initial visit lasts 45–60 minutes, allowing for a thorough history taking and physical examination." },
   { q: "When will I receive my test results?", a: "Results for EEG and EMG studies are usually available within 3–5 business days and will be discussed during a follow-up visit." },
 ];
