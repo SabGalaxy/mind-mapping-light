@@ -41,7 +41,7 @@ function Index() {
             <a href="#services" className="text-sm font-medium hover:text-[var(--color-brand-primary)] transition-colors">Services</a>
             <a href="#conditions" className="text-sm font-medium hover:text-[var(--color-brand-primary)] transition-colors">Conditions</a>
             <a href="#profile" className="text-sm font-medium hover:text-[var(--color-brand-primary)] transition-colors">About</a>
-            <a href="#appointments" className="px-5 py-2.5 bg-[var(--color-brand-fg)] text-white text-sm font-medium rounded-full hover:bg-[var(--color-brand-primary)] transition-all">Request Appointment</a>
+            <a href="https://cal.com/sarala-govindarajan-yl48rx/neurology-consultation" target="_blank" className="px-5 py-2.5 bg-[var(--color-brand-fg)] text-white text-sm font-medium rounded-full hover:bg-[var(--color-brand-primary)] transition-all">Request Appointment</a>
           </div>
         </div>
       </nav>
