@@ -9,7 +9,7 @@ export const Route = createFileRoute("/")({
 const services = [
   { n: "01", title: "EEG Testing", desc: "Diagnostic electroencephalography to evaluate brain electrical activity for seizure disorders." },
   { n: "02", title: "EMG & NCS", desc: "Comprehensive nerve conduction studies and electromyography for muscle and nerve health." },
-  { n: "03", title: "Botox for Migraine", desc: "FDA-approved therapeutic injections for patients suffering from chronic migraine episodes." },
+  { n: "03", title: "Evaluation And Management Of Headache", desc: "FDA-approved therapeutic injections for patients suffering from chronic migraine episodes." },
   { n: "04", title: "Sleep Evaluation", desc: "Specialized assessment for sleep-related disorders including apnea and narcolepsy." },
   { n: "06", title: "Cognitive Testing", desc: "Detailed neurocognitive screening for memory loss and cognitive decline assessment." },
 ];
