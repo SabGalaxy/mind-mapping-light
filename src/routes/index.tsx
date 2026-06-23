@@ -22,15 +22,6 @@ const conditionGroups: { title: string; items: string[] }[] = [
   { title: "Neuro-Immunology", items: ["Multiple Sclerosis (MS)", "Optic Neuritis", "Autoimmune Encephalitis"] },
 ];
 
-const insurance = [
-  "Blue Cross Blue Shield",
-  "United Healthcare",
-  "Medicare & Medicaid",
-  "Aetna PPO/HMO",
-  "Cigna Healthcare",
-  "Humana Gold",
-];
-
 const faqs = [
   { q: "Do I need a referral to see Dr. Govindarajan?", a: "Most insurance plans require a referral from your primary care physician. Please check with your provider before scheduling." },
   { q: "How long does an initial consultation take?", a: "Typically, an initial visit lasts 45–60 minutes, allowing for a thorough history taking and physical examination." },
@@ -172,34 +163,7 @@ function Index() {
         </div>
       </section>
 
-      {/* Appointments & Insurance */}
-      <section id="appointments" className="py-24 border-b border-[var(--color-brand-border)]">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-12">
-            <div className="p-12 bg-[var(--color-brand-surface)] rounded-3xl">
-              <h3 className="font-[var(--font-display)] text-3xl font-bold mb-8">Your First Visit</h3>
-              <ul className="space-y-6">
-                {["Please arrive 15 minutes early to complete initial patient registration forms.", "Bring your photo ID, insurance card, and a list of current medications.", "Copies of previous imaging (MRI/CT scans) on a disc or printed report."].map((t, i) => (
-                  <li key={i} className="flex gap-4">
-                    <span className="size-6 rounded-full bg-[var(--color-brand-primary)]/10 text-[var(--color-brand-primary)] flex items-center justify-center font-[var(--font-mono)] text-xs shrink-0">{i + 1}</span>
-                    <p className="text-sm">{t}</p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="p-12 border border-[var(--color-brand-border)] rounded-3xl">
-              <h3 className="font-[var(--font-display)] text-3xl font-bold mb-8">Accepted Insurance</h3>
-              <div className="grid grid-cols-2 gap-4 text-sm">
-                {insurance.map((i) => (
-                  <div key={i} className="py-3 px-4 bg-[var(--color-brand-surface)] rounded-lg">{i}</div>
-                ))}
-              </div>
-              <p className="mt-8 text-xs text-[var(--color-brand-muted)] italic">Please contact our billing office to verify coverage for specific procedures.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+     
       {/* FAQ */}
       <section className="py-24 bg-white">
         <div className="max-w-3xl mx-auto px-6">
